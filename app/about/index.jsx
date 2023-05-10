@@ -3,7 +3,6 @@ import { StyleSheet, Text, View } from "react-native";
 import FadeIn from '../components/FadeIn'
 import React, {useState} from 'react';
 import { MotiView, MotiText } from 'moti'
-import Demo from "../components/Demo";
 
 
 
@@ -11,9 +10,9 @@ export default function AboutPage() {
 
   return (
     <>
-    <FadeIn>
-     <Link href="/">Home</Link>
 
+    <FadeIn>
+   
     <View style={styles.container}>
        
      
